@@ -1,0 +1,1 @@
+window.MYHOMS_API = 'https://script.google.com/macros/s/AKfycbxysuhW2ui2ZDdn2meGep8ESob_r5ehYex7kUMYp3X8suPz5eVP3mMUiR5NdD2SLMNO/exec';
