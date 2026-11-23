@@ -1,6 +1,6 @@
 /* MY HOMS — Service Worker (dibuat otomatis oleh build_gh.py, versi 1.37.3). */
 const CACHE_NAME = 'myhoms-1-37-3-98a286';
-const PRECACHE = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './assets/style.b817c0351f.css', './assets/app.98a286bfd3.js'];
+const PRECACHE = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './assets/style.c3118d52eb.css', './assets/app.98a286bfd3.js'];
 
 self.addEventListener('install', function (event) {
   event.waitUntil(caches.open(CACHE_NAME).then(function (c) { return c.addAll(PRECACHE); }));
